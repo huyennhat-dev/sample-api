@@ -10,7 +10,7 @@ let rawdata = fs.readFileSync("data.json");
 let routes = JSON.parse(rawdata);
 const fileUpload = require("express-fileupload");
 
-const PORT = 8000;
+const PORT = 80;
 
 db.defaults({ products: [] }).write();
 
